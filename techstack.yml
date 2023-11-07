@@ -1,0 +1,562 @@
+repo_name: nice-org-two/Java-2
+report_id: 658870367444f511abbf80e181bed74a
+repo_type: Public
+timestamp: '2023-11-07T12:53:06+00:00'
+requested_by: chenhaoxiang
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: mysql_split_horizon/src/main/resources/split_horizon.sql
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  imageURL: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  imageURL: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source: mysql_split_horizon/pom.xml
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  imageURL: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source: Hibernate/myHibWebDemo/src/hibernate.cfg.xml
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  imageURL: https://img.stackshare.io/service/5582/1483254.png
+  detection_source: druid_spring_config/pom.xml
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  imageURL: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: mysql_split_horizon/pom.xml
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  imageURL: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  imageURL: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: springBoot/pom.xml
+  detection_source: springBoot/pom.xml
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.2.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  imageURL: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: druid_spring_config/pom.xml
+  detection_source: druid_spring_config/pom.xml
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  imageURL: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: mysql_split_horizon/target/classes/application.properties
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  imageURL: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: druid_spring_config/pom.xml
+  detection_source: druid_spring_config/pom.xml
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  imageURL: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: druid_spring_config/pom.xml
+  detection_source: druid_spring_config/pom.xml
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in jackson-databind due to polymorphic
+      deserialization
+    cve_id: CVE-2018-19360
+    cve_url: https://github.com/advisories/GHSA-f9hv-mg5h-xcw9
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9548
+    cve_url: https://github.com/advisories/GHSA-p43x-xfjf-5jhr
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.6
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9547
+    cve_url: https://github.com/advisories/GHSA-q93h-jc49-78gg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.6
+  - name: jackson-databind is vulnerable to a deserialization flaw
+    cve_id: CVE-2017-7525
+    cve_url: https://github.com/advisories/GHSA-qxxx-2pp7-5hmx
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.9
+  - name: Polymorphic Typing in FasterXML jackson-databind
+    cve_id: CVE-2019-16942
+    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.1
+  - name: Polymorphic Typing issue in FasterXML jackson-databind
+    cve_id: CVE-2019-16335
+    cve_url: https://github.com/advisories/GHSA-85cw-hj65-qqv9
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Polymorphic Typing issue in FasterXML jackson-databind
+    cve_id: CVE-2019-14540
+    cve_url: https://github.com/advisories/GHSA-h822-r4r5-v8jg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14719
+    cve_url: https://github.com/advisories/GHSA-4gq5-ch57-c2mg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: XML External Entity Reference (XXE) in jackson-databind
+    cve_id: CVE-2018-14720
+    cve_url: https://github.com/advisories/GHSA-x2w5-5m2g-7h5m
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: jackson-databind vulnerable to deserialization flaw leading to unauthenticated
+      remote code execution
+    cve_id: CVE-2017-15095
+    cve_url: https://github.com/advisories/GHSA-h592-38cm-4ggp
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14718
+    cve_url: https://github.com/advisories/GHSA-645p-88qh-w398
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: Server-Side Request Forgery (SSRF) in jackson-databind
+    cve_id: CVE-2018-14721
+    cve_url: https://github.com/advisories/GHSA-9mxf-g3x6-wv74
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-11307
+    cve_url: https://github.com/advisories/GHSA-qr7j-h6gg-jmgc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.2
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: jackson-databind vulnerable to remote code execution due to incorrect deserialization
+      and blocklist bypass
+    cve_id: CVE-2017-17485
+    cve_url: https://github.com/advisories/GHSA-rfx6-vp9g-rh7v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11
+  - name: 'FasterXML jackson-databind allows unauthenticated remote code execution '
+    cve_id: CVE-2018-7489
+    cve_url: https://github.com/advisories/GHSA-cggj-fvv3-cqwv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.1
+  - name: jackson-databind polymorphic typing issue
+    cve_id: CVE-2019-17531
+    cve_url: https://github.com/advisories/GHSA-gjmw-vf9h-g25v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-19361
+    cve_url: https://github.com/advisories/GHSA-mx9v-gmh4-mgqw
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.3
+  - name: jackson-databind polymorphic typing issue
+    cve_id: CVE-2019-16943
+    cve_url: https://github.com/advisories/GHSA-fmmc-742q-jg75
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14379
+    cve_url: https://github.com/advisories/GHSA-6fpp-rgj9-8rwc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.4
+  - name: Improper Input Validation in jackson-databind
+    cve_id: CVE-2019-17267
+    cve_url: https://github.com/advisories/GHSA-f3j5-rmmp-3fc5
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-wrr7-33fx-rcvj
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.2
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10673
+    cve_url: https://github.com/advisories/GHSA-fqwf-pjwf-7vqv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Polymorphic deserialization of malicious object in jackson-databind
+    cve_id: CVE-2019-14892
+    cve_url: https://github.com/advisories/GHSA-cf6r-3wgc-h863
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.5
+  - name: jackson-databind Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2018-12022
+    cve_url: https://github.com/advisories/GHSA-cjjf-94ff-43w7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.2
+  - name: Information exposure in FasterXML jackson-databind
+    cve_id: CVE-2019-12086
+    cve_url: https://github.com/advisories/GHSA-5ww9-j83m-q7qx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.9
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Deserialization of untrusted data in jackson-databind
+    cve_id: CVE-2021-20190
+    cve_url: https://github.com/advisories/GHSA-5949-rw7g-wx7w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-5968
+    cve_url: https://github.com/advisories/GHSA-w3f4-3q6j-rh82
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36186
+    cve_url: https://github.com/advisories/GHSA-v585-23hc-c647
+    detected_date: Jan 18
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Code Injection in jackson-databind
+    cve_id: CVE-2020-24616
+    cve_url: https://github.com/advisories/GHSA-h3cw-g4mq-c5x2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35490
+    cve_url: https://github.com/advisories/GHSA-wh8g-3j2c-rqj5
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35491
+    cve_url: https://github.com/advisories/GHSA-r3gr-cxrf-hg25
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36181
+    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36183
+    cve_url: https://github.com/advisories/GHSA-9m6f-7xcq-8vf8
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36180
+    cve_url: https://github.com/advisories/GHSA-8c4j-34r4-xr8g
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36182
+    cve_url: https://github.com/advisories/GHSA-89qr-369f-5m5x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36179
+    cve_url: https://github.com/advisories/GHSA-9gph-22xh-8x98
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36189
+    cve_url: https://github.com/advisories/GHSA-vfqx-33qm-g869
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36188
+    cve_url: https://github.com/advisories/GHSA-f9xh-2qgp-cq57
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36187
+    cve_url: https://github.com/advisories/GHSA-r695-7vr9-jgc2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36184
+    cve_url: https://github.com/advisories/GHSA-m6x4-97wx-4q27
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36185
+    cve_url: https://github.com/advisories/GHSA-8w26-6f25-cm9x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: High severity vulnerability that affects com.fasterxml.jackson.core:jackson-databind
+    cve_id: CVE-2018-19362
+    cve_url: https://github.com/advisories/GHSA-c8hm-7hpq-7jhg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.3
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14439
+    cve_url: https://github.com/advisories/GHSA-gwp4-hfv6-p7hw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.14
+  - name: Deserialization of Untrusted Data
+    cve_id: CVE-2018-12023
+    cve_url: https://github.com/advisories/GHSA-6wqp-v4v6-c87c
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.11.2
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-12814
+    cve_url: https://github.com/advisories/GHSA-cmfg-87vq-g5g4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.9.9.1
+  - name: Deserialization of Untrusted Data in FasterXML jackson-databind
+    cve_id: CVE-2019-12384
+    cve_url: https://github.com/advisories/GHSA-mph4-vhrx-mv67
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.9.9.1
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  imageURL: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: springBoot/pom.xml
+  detection_source: springBoot/pom.xml
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 5.1.36
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  imageURL: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: druid_spring_config/pom.xml
+  detection_source: mysql_split_horizon/pom.xml
+  vulnerabilities:
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2017-3523
+    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 5.1.41
+  - name: Improper Privilege Management in MySQL Connectors Java
+    cve_id: CVE-2018-3258
+    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
+    detected_date: Jun 29
+    severity: high
+    first_patched: 8.0.13
+  - name: Privilege escalation in mysql-connector-jav
+    cve_id: CVE-2019-2692
+    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.16
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3586
+    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 5.1.42
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3589
+    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
+    detected_date: Jul 2
+    severity: low
+    first_patched: 5.1.42
