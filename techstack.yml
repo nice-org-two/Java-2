@@ -1,7 +1,7 @@
 repo_name: nice-org-two/Java-2
-report_id: 658870367444f511abbf80e181bed74a
+report_id: 5df7b8e225d82edaa37e0b5894c0c1e9
 repo_type: Public
-timestamp: '2023-11-07T12:53:06+00:00'
+timestamp: '2023-11-08T07:36:00+00:00'
 requested_by: chenhaoxiang
 provider: github
 branch: master
@@ -14,7 +14,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/6727/css.png
+  image_url: https://img.stackshare.io/service/6727/css.png
   detection_source: Repo Metadata
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -24,7 +24,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/995/K85ZWV2F.png
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -34,7 +34,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -43,7 +43,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
   detection_source: mysql_split_horizon/src/main/resources/split_horizon.sql
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -53,7 +53,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
   detection_source: Repo Metadata
 - name: Spring Framework
   description: An application framework and inversion of control container for the
@@ -64,7 +64,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
-  imageURL: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
   detection_source: mysql_split_horizon/pom.xml
 - name: Hibernate
   description: Idiomatic persistence for Java and relational databases.
@@ -73,7 +73,7 @@ tools:
   hosted_saas: false
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
-  imageURL: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
   detection_source: Hibernate/myHibWebDemo/src/hibernate.cfg.xml
 - name: MyBatis
   description: SQL Mapper Framework for Java
@@ -83,7 +83,7 @@ tools:
   hosted_saas: false
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
-  imageURL: https://img.stackshare.io/service/5582/1483254.png
+  image_url: https://img.stackshare.io/service/5582/1483254.png
   detection_source: druid_spring_config/pom.xml
 - name: MySQL
   description: The world's most popular open source database
@@ -92,7 +92,7 @@ tools:
   hosted_saas: false
   category: Data Stores
   sub_category: Databases
-  imageURL: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
   detection_source: mysql_split_horizon/pom.xml
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -101,7 +101,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
 - name: JUnit
   description: A programmer-oriented testing framework for Java
@@ -112,7 +112,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
-  imageURL: https://img.stackshare.io/service/2020/874086.png
+  image_url: https://img.stackshare.io/service/2020/874086.png
   detection_source_url: springBoot/pom.xml
   detection_source: springBoot/pom.xml
 - name: Log4j
@@ -124,7 +124,7 @@ tools:
   hosted_saas: false
   category: Monitoring
   sub_category: Logging Tools
-  imageURL: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
 - name: Apache Camel
@@ -135,7 +135,7 @@ tools:
   hosted_saas: false
   category: Application Hosting
   sub_category: Platform as a Service
-  imageURL: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
   detection_source: mysql_split_horizon/target/classes/application.properties
 - name: com.fasterxml.jackson.core:jackson-annotations
   description: Core annotations used for value types
@@ -145,7 +145,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Maven Packages
-  imageURL: https://img.stackshare.io/package/maven/image.png
+  image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
 - name: com.fasterxml.jackson.core:jackson-databind
@@ -157,7 +157,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Maven Packages
-  imageURL: https://img.stackshare.io/package/maven/image.png
+  image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
   vulnerabilities:
@@ -499,7 +499,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Maven Packages
-  imageURL: https://img.stackshare.io/package/maven/image.png
+  image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: springBoot/pom.xml
   detection_source: springBoot/pom.xml
   vulnerabilities:
@@ -517,7 +517,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Maven Packages
-  imageURL: https://img.stackshare.io/package/maven/image.png
+  image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: mysql_split_horizon/pom.xml
   vulnerabilities:
