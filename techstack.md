@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/Java-2](https://github.com/nice-org-two/Java-2)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|17<br/>Tools used|1<br/>Contributors|11/07/23 <br/>Report generated|02/06/18<br/>Last commit date|
+|17<br/>Tools used|1<br/>Contributors|11/08/23 <br/>Report generated|02/06/18<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -102,7 +102,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Data (3)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (3)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1756/1uNl_IZX.png' alt='Hibernate'>
@@ -160,7 +160,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src=''/> Hosting (1)
+## <img src='https://img.stackshare.io/hosting.svg'/> Hosting (1)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg' alt='Apache Camel'>
