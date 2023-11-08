@@ -1,7 +1,7 @@
 repo_name: nice-org-two/Java-2
-report_id: 5df7b8e225d82edaa37e0b5894c0c1e9
+report_id: c4557d887afc0a3743270e2500657f6d
 repo_type: Public
-timestamp: '2023-11-08T07:36:00+00:00'
+timestamp: '2023-11-08T18:27:31+00:00'
 requested_by: chenhaoxiang
 provider: github
 branch: master
@@ -390,12 +390,6 @@ tools:
     severity: high
     first_patched: 2.9.10.8
   - name: Unsafe Deserialization in jackson-databind
-    cve_id: CVE-2020-36181
-    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
-    detected_date: Jan 28
-    severity: high
-    first_patched: 2.9.10.8
-  - name: Unsafe Deserialization in jackson-databind
     cve_id: CVE-2020-36183
     cve_url: https://github.com/advisories/GHSA-9m6f-7xcq-8vf8
     detected_date: Jan 28
@@ -446,6 +440,12 @@ tools:
   - name: Unsafe Deserialization in jackson-databind
     cve_id: CVE-2020-36185
     cve_url: https://github.com/advisories/GHSA-8w26-6f25-cm9x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36181
+    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
     detected_date: Jan 28
     severity: high
     first_patched: 2.9.10.8
