@@ -1,7 +1,7 @@
 repo_name: nice-org-two/Java-2
-report_id: cf8cbe35eb96bb06277a86b38619c87a
+report_id: a76233307e593fc9c7f4e0348fda0569
 repo_type: Public
-timestamp: '2023-11-08T20:22:03+00:00'
+timestamp: '2023-11-10T16:31:33+00:00'
 requested_by: chenhaoxiang
 provider: github
 branch: master
@@ -45,6 +45,8 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
   detection_source: mysql_split_horizon/src/main/resources/split_horizon.sql
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 15:20:07.000000000 Z
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
     files. Shell scripts typically manage program execution.
@@ -66,6 +68,8 @@ tools:
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
   detection_source: mysql_split_horizon/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
 - name: Hibernate
   description: Idiomatic persistence for Java and relational databases.
   website_url: http://hibernate.org/
@@ -75,6 +79,8 @@ tools:
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
   detection_source: Hibernate/myHibWebDemo/src/hibernate.cfg.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2016-08-30 06:37:56.000000000 Z
 - name: MyBatis
   description: SQL Mapper Framework for Java
   website_url: http://www.mybatis.org/mybatis-3/
@@ -85,6 +91,8 @@ tools:
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/5582/1483254.png
   detection_source: druid_spring_config/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
 - name: MySQL
   description: The world's most popular open source database
   website_url: http://www.mysql.com
@@ -94,6 +102,8 @@ tools:
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
   detection_source: mysql_split_horizon/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -115,6 +125,8 @@ tools:
   image_url: https://img.stackshare.io/service/2020/874086.png
   detection_source_url: springBoot/pom.xml
   detection_source: springBoot/pom.xml
+  last_updated_by: chx
+  last_updated_on: 2016-11-04 14:01:55.000000000 Z
 - name: Log4j
   description: A Java-based logging utility
   website_url: https://logging.apache.org/log4j/2.x/
@@ -127,6 +139,8 @@ tools:
   image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
 - name: Apache Camel
   description: A versatile open source integration framework
   website_url: https://camel.apache.org/
@@ -137,6 +151,8 @@ tools:
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
   detection_source: mysql_split_horizon/target/classes/application.properties
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-05 15:09:32.000000000 Z
 - name: com.fasterxml.jackson.core:jackson-annotations
   description: Core annotations used for value types
   version: 2.8.5
@@ -148,6 +164,8 @@ tools:
   image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
 - name: com.fasterxml.jackson.core:jackson-databind
   description: 'General data-binding functionality for Jackson: works on core streaming
     API'
@@ -160,6 +178,8 @@ tools:
   image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: druid_spring_config/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
   vulnerabilities:
   - name: Deserialization of Untrusted Data in jackson-databind due to polymorphic
       deserialization
@@ -390,6 +410,12 @@ tools:
     severity: high
     first_patched: 2.9.10.8
   - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36181
+    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
     cve_id: CVE-2020-36183
     cve_url: https://github.com/advisories/GHSA-9m6f-7xcq-8vf8
     detected_date: Jan 28
@@ -440,12 +466,6 @@ tools:
   - name: Unsafe Deserialization in jackson-databind
     cve_id: CVE-2020-36185
     cve_url: https://github.com/advisories/GHSA-8w26-6f25-cm9x
-    detected_date: Jan 28
-    severity: high
-    first_patched: 2.9.10.8
-  - name: Unsafe Deserialization in jackson-databind
-    cve_id: CVE-2020-36181
-    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
     detected_date: Jan 28
     severity: high
     first_patched: 2.9.10.8
@@ -502,6 +522,8 @@ tools:
   image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: springBoot/pom.xml
   detection_source: springBoot/pom.xml
+  last_updated_by: chx
+  last_updated_on: 2016-11-14 11:29:34.000000000 Z
   vulnerabilities:
   - name: Path Traversal and Improper Input Validation in Apache Commons IO
     cve_id: CVE-2021-29425
@@ -520,6 +542,8 @@ tools:
   image_url: https://img.stackshare.io/package/maven/image.png
   detection_source_url: druid_spring_config/pom.xml
   detection_source: mysql_split_horizon/pom.xml
+  last_updated_by: chenhaoxiang
+  last_updated_on: 2018-02-06 14:49:41.000000000 Z
   vulnerabilities:
   - name: Improper Access Control in MySQL Connectors Java
     cve_id: CVE-2017-3523
