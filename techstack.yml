@@ -1,8 +1,8 @@
 repo_name: nice-org-two/Java-2
-report_id: 80b79cc5994e8f0bc69e696e0f684708
+report_id: ea4185bdc1984d85e6a2698863b7929c
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-28T09:10:02+00:00'
+timestamp: '2024-03-29T05:57:03+00:00'
 requested_by: chenhaoxiang
 provider: github
 branch: master
@@ -193,6 +193,12 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.8.11
+  - name: Polymorphic Typing in FasterXML jackson-databind
+    cve_id: CVE-2019-16942
+    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
   - name: com.fasterxml.jackson.core:jackson-databind vulnerable to Deserialization
       of Untrusted Data
     cve_id: CVE-2018-19362
@@ -200,12 +206,6 @@ tools:
     detected_date: Aug 22
     severity: critical
     first_patched: 2.8.11.3
-  - name: Polymorphic Typing in FasterXML jackson-databind
-    cve_id: CVE-2019-16942
-    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 2.8.11.5
   - name: Arbitrary Code Execution in jackson-databind
     cve_id: CVE-2018-14719
     cve_url: https://github.com/advisories/GHSA-4gq5-ch57-c2mg
